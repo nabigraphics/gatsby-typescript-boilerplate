@@ -1,0 +1,36 @@
+{
+  "name": "gatsby-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "gatsbyjs typescript boilerplate",
+  "main": "index.js",
+  "repository": "https://github.com/nabigraphics/gatsby-typescript-boilerplate",
+  "author": "nabigraphics <hbh2692@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "clear": "rimraf .cache public",
+    "format": "prettier --write src/**/*.{js,json,jsx,ts,tsx,css,scss}",
+    "dev": "gatsby develop -H 0.0.0.0",
+    "build": "gatsby build",
+    "start": "gatsby serve"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.3",
+    "@types/react-dom": "^16.9.1",
+    "@types/react-helmet": "^5.0.11",
+    "axios": "^0.19.0",
+    "gatsby": "^2.15.20",
+    "gatsby-plugin-layout": "^1.1.8",
+    "gatsby-plugin-react-helmet": "^3.1.10",
+    "gatsby-plugin-sass": "^2.1.15",
+    "gatsby-plugin-typescript": "^2.1.9",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "rimraf": "^3.0.0"
+  }
+}
