@@ -60,9 +60,9 @@ typings/
 # next.js build output
 .next
 
-# webstorm
-.idea
+# gatsby build output
+public/
+.cache
 
-# gatsbyjs
-.cache/
-pubilc/
+# webstorm idea directory
+.idea
