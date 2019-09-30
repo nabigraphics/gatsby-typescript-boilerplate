@@ -17,7 +17,6 @@
     "@types/react": "^16.9.3",
     "@types/react-dom": "^16.9.1",
     "@types/react-helmet": "^5.0.11",
-    "axios": "^0.19.0",
     "gatsby": "^2.15.28",
     "gatsby-plugin-layout": "^1.1.8",
     "gatsby-plugin-react-helmet": "^3.1.10",
@@ -30,6 +29,7 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "@hot-loader/react-dom": "^16.9.0",
     "prettier": "^1.18.2",
     "rimraf": "^3.0.0"
   }
